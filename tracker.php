@@ -70,6 +70,8 @@
         // Add the required HTTP header for form data POST requests
         XHR.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
+        // Add tracking information
+
         // Finally, send our data.
         XHR.send(urlEncodedData);
     }
