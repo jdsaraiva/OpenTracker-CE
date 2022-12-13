@@ -1,5 +1,5 @@
 <?php
-
+/*
     session_start();
 
     if(!isset($_SESSION['login'])){
@@ -8,7 +8,7 @@
     }
 
     $username = $_SESSION["username"];
-
+*/
 ?>
 <!DOCTYPE html>
 <html lang="en">
