@@ -11,7 +11,7 @@ if( ($username=='admin' || $password=='admin') )
 	$_SESSION["login"] = "true";
 	$_SESSION["username"] = $_POST['username'];
 */
-	header("Location:../tracker.php");
+	header("Location:../tracker.html");
 /*
 }
 else
